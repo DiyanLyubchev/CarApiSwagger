@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "TVYKkET7eQdzmRvBFHC6Qq2O0QbDZ9DcMr60BrD3JeiyuDN2wEafK8pNZref5XW5H/6caJqLmJBZAD7omTyMNA==",
+  "success": true,
+  "projectFilePath": "D:\\Work\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diyan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\diyan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\diyan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\diyan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.4\\swashbuckle.aspnetcore.6.0.4.nupkg.sha512",
+    "C:\\Users\\diyan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.0.4\\swashbuckle.aspnetcore.swagger.6.0.4.nupkg.sha512",
+    "C:\\Users\\diyan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.0.4\\swashbuckle.aspnetcore.swaggergen.6.0.4.nupkg.sha512",
+    "C:\\Users\\diyan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.0.4\\swashbuckle.aspnetcore.swaggerui.6.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
