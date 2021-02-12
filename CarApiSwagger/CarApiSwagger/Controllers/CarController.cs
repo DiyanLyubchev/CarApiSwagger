@@ -25,9 +25,21 @@ namespace CarApiSwagger.Controllers
         {
             return this.carEngine.GetCars();
         }
+     
+        //public ActionResult<int> GetCarCount()
+        //{
+        //    return this.carEngine.GetCars().Count();
+        //}
+
+        [HttpPost]
+        public ActionResult<string> AddCar([FromBody]CarModel carModel)
+        {
+            bool isCarRemoved = this.carEngine.AddCar(carModel);
+            return Ok("Car was added successfully");
+        }
 
         [HttpGet("{carBrand}")]
-        public ActionResult<CarModel> Get(string carBrand)
+        public ActionResult<CarModel> GetCarByBrand(string carBrand)
         {
             try
             {

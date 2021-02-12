@@ -13,11 +13,13 @@ namespace CarApiSwagger.Engine
         List<CarModel> GetCars();
         CarModel GetCarByBrand(string carBrand);
         bool DeleteCar(string carBrand);
+        bool AddCar(CarModel carModel);
     }
 
     public class CarEngine : ICarEngine
     {
         private readonly string path = @"Data\cars.json";
+
         public List<CarModel> GetCars()
         {
             string carsJson = File.ReadAllText(path);
@@ -56,6 +58,17 @@ namespace CarApiSwagger.Engine
 
             string jsonCar = JsonSerializer.Serialize(cars);
 
+            File.WriteAllText(path, jsonCar);
+
+            return true;
+        }
+
+        public bool AddCar(CarModel carModel)
+        {
+            List<CarModel> cars = this.GetCars();
+            cars.Add(carModel);
+
+            string jsonCar = JsonSerializer.Serialize(cars);
             File.WriteAllText(path, jsonCar);
 
             return true;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TVYKkET7eQdzmRvBFHC6Qq2O0QbDZ9DcMr60BrD3JeiyuDN2wEafK8pNZref5XW5H/6caJqLmJBZAD7omTyMNA==",
+  "dgSpecHash": "y4AnprcsogZ75AHMqKQWmiLgzVZZ47MNTcsBHEJMZyzKdBXqUfcP84ZPbzYXtG+IijTpgiF2F4gI2px3piWibA==",
   "success": true,
-  "projectFilePath": "D:\\Work\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
+  "projectFilePath": "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diyan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\diyan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

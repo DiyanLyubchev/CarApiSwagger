@@ -246,11 +246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
+      "projectUniqueName": "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
       "projectName": "CarApiSwagger",
-      "projectPath": "D:\\Work\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
+      "projectPath": "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
       "packagesPath": "C:\\Users\\diyan\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\CarApiSwagger\\CarApiSwagger\\obj\\",
+      "outputPath": "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
