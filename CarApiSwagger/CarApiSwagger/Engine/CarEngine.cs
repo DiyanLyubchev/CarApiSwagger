@@ -1,14 +1,14 @@
 ﻿using CarApiSwagger.Model;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace CarApiSwagger.Engine
 {
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
     public interface ICarEngine
+
     {
         List<CarModel> GetCars();
         CarModel GetCarByBrand(string carBrand);
@@ -66,7 +66,25 @@ namespace CarApiSwagger.Engine
         public bool AddCar(CarModel carModel)
         {
             List<CarModel> cars = this.GetCars();
-            cars.Add(carModel);
+
+            CarModel newCar = this.GetCars()
+               .FirstOrDefault(carBrad => carBrad.Brand.ToUpper().Contains(carModel.Brand.ToUpper()));
+
+            if (newCar != null)
+            {
+                for (int i = 0; i < cars.Count; i++)
+                {
+                    if (cars[i].Brand == newCar.Brand)
+                    {
+                        cars[i].Models.AddRange(carModel.Models);
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                cars.Add(carModel);
+            }
 
             string jsonCar = JsonSerializer.Serialize(cars);
             File.WriteAllText(path, jsonCar);
@@ -74,4 +92,5 @@ namespace CarApiSwagger.Engine
             return true;
         }
     }
+#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
 }

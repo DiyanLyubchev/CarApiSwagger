@@ -11,7 +11,9 @@ namespace CarApiSwagger.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
     public class CarController : ControllerBase
+
     {
         private readonly ICarEngine carEngine;
 
@@ -20,17 +22,24 @@ namespace CarApiSwagger.Controllers
             this.carEngine = carEngine;
         }
 
+        /// <summary>
+        /// Get all cars from data.
+        /// </summary>
         [HttpGet]
         public IEnumerable<CarModel> Get()
         {
             return this.carEngine.GetCars();
         }
-     
+
         //public ActionResult<int> GetCarCount()
         //{
         //    return this.carEngine.GetCars().Count();
         //}
 
+        /// <summary>
+        /// Added car brand and specific model.
+        /// </summary>
+        /// <param name="carModel"></param> 
         [HttpPost]
         public ActionResult<string> AddCar([FromBody]CarModel carModel)
         {
@@ -38,6 +47,10 @@ namespace CarApiSwagger.Controllers
             return Ok("Car was added successfully");
         }
 
+        /// <summary>
+        /// Get a specific car by car brand.
+        /// </summary>
+        /// <param name="carBrand"></param> 
         [HttpGet("{carBrand}")]
         public ActionResult<CarModel> GetCarByBrand(string carBrand)
         {
@@ -57,6 +70,10 @@ namespace CarApiSwagger.Controllers
            
         }
 
+        /// <summary>
+        /// Deletes a specific car by car brand.
+        /// </summary>
+        /// <param name="carBrand"></param> 
         [HttpDelete("{carBrand}")]
         public ActionResult<string> DeleteCar(string carBrand)
         {
@@ -75,4 +92,5 @@ namespace CarApiSwagger.Controllers
             }
         }
     }
+#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
 }

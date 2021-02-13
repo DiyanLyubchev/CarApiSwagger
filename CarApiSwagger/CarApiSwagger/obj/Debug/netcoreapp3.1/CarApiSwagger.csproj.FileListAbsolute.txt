@@ -54,3 +54,4 @@ D:\Work\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Debug\netcoreap
 D:\Work\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Debug\netcoreapp3.1\CarApiSwagger.dll
 D:\Work\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Debug\netcoreapp3.1\CarApiSwagger.pdb
 D:\Work\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Debug\netcoreapp3.1\CarApiSwagger.genruntimeconfig.cache
+D:\Work\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\bin\Debug\netcoreapp3.1\CarApiSwagger.xml
