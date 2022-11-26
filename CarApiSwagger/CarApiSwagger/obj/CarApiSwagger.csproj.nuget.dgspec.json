@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj": {}
+    "D:\\Work\\DIDO\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj": {}
   },
   "projects": {
-    "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj": {
+    "D:\\Work\\DIDO\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
+        "projectUniqueName": "D:\\Work\\DIDO\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
         "projectName": "CarApiSwagger",
-        "projectPath": "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
+        "projectPath": "D:\\Work\\DIDO\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
         "packagesPath": "C:\\Users\\diyan\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\obj\\",
+        "outputPath": "D:\\Work\\DIDO\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
