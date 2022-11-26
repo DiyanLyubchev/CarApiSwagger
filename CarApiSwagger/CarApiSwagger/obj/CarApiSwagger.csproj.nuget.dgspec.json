@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj": {}
+    "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj": {}
   },
   "projects": {
-    "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj": {
+    "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
+        "projectUniqueName": "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
         "projectName": "CarApiSwagger",
-        "projectPath": "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
+        "projectPath": "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger.csproj",
         "packagesPath": "C:\\Users\\diyan\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\obj\\",
+        "outputPath": "D:\\Work\\DIDO\\ApiSwagger\\CarApiSwagger\\CarApiSwagger\\CarApiSwagger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,15 +21,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -40,16 +40,16 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -58,7 +58,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

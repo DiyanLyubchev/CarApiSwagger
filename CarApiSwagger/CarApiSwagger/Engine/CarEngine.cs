@@ -24,7 +24,8 @@ namespace CarApiSwagger.Engine
         {
             string carsJson = File.ReadAllText(path);
 
-            return JsonSerializer.Deserialize<List<CarModel>>(carsJson);
+            List<CarModel> result = JsonSerializer.Deserialize<List<CarModel>>(carsJson);
+            return result;
         }
 
         public CarModel GetCarByBrand(string carBrand)
