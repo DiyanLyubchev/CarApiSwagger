@@ -1,0 +1,14 @@
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\CarApiSwagger.exe
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\Data\cars.json
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\CarApiSwagger.xml
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\CarApiSwagger.dll
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\CarApiSwagger.deps.json
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\CarApiSwagger.runtimeconfig.json
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\CarApiSwagger.pdb
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\DIDO\ApiSwagger\CarApiSwagger\CarApiSwagger\CarApiSwagger\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -10,7 +10,7 @@ using System.IO;
 using System.Reflection;
 
 namespace CarApiSwagger
-{
+{//https://stackoverflow.com/questions/44074121/build-net-core-console-application-to-output-an-exe how it will be pack to exe
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
     public class Startup
 
