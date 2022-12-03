@@ -28,6 +28,7 @@ namespace CarApiSwagger.Controllers
         [HttpGet]
         public IEnumerable<CarModel> Get()
         {
+            Console.WriteLine($"{DateTime.Now:HH:mm:ss} Get all cars from data");
             return this.carEngine.GetCars();
         }
 
@@ -41,9 +42,10 @@ namespace CarApiSwagger.Controllers
         /// </summary>
         /// <param name="carModel"></param> 
         [HttpPost]
-        public ActionResult<string> AddCar([FromBody]CarModel carModel)
+        public ActionResult<string> AddCar([FromBody] CarModel carModel)
         {
-            bool isCarRemoved = this.carEngine.AddCar(carModel);
+            Console.WriteLine($"{DateTime.Now:HH:mm:ss} Added car brand {carModel.Brand} and specific model.");
+            this.carEngine.AddCar(carModel);
             return Ok("Car was added successfully");
         }
 
@@ -56,6 +58,7 @@ namespace CarApiSwagger.Controllers
         {
             try
             {
+                Console.WriteLine($"{DateTime.Now:HH:mm:ss} Get a specific car by car brand {carBrand}.");
                 CarModel car = this.carEngine.GetCarByBrand(carBrand);
                 if (car != null)
                 {
@@ -67,7 +70,7 @@ namespace CarApiSwagger.Controllers
             {
                 return BadRequest(ex.Message);
             }
-           
+
         }
 
         /// <summary>
@@ -79,6 +82,7 @@ namespace CarApiSwagger.Controllers
         {
             try
             {
+                Console.WriteLine($"{DateTime.Now:HH:mm:ss} Deletes a specific car by car brand: {carBrand}.");
                 bool isCarRemoved = this.carEngine.DeleteCar(carBrand);
                 if (isCarRemoved)
                 {

@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\diyan\Desktop\TestPublish</_PublishTargetUrl>
-    <History>True|2022-11-26T06:25:02.3098339Z;</History>
+    <History>True|2022-11-26T07:34:08.1597141Z;True|2022-11-26T08:25:02.3098339+02:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
